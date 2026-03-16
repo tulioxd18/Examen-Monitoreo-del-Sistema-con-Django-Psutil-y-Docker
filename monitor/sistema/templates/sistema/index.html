@@ -6,6 +6,8 @@
     <title>Monitoreo del Sistema</title>
     <style>
         body { font-family: Arial, sans-serif; margin: 20px; }
+        .header-info { background-color: #f8f9fa; padding: 15px; border-radius: 8px; margin-bottom: 20px; }
+        .header-info p { margin: 5px 0; color: #555; }
         .card { border: 1px solid #ccc; padding: 20px; margin: 10px; border-radius: 8px; width: 300px; display: inline-block; }
         .card h3 { margin-top: 0; }
         button { padding: 10px 20px; background-color: #007bff; color: white; border: none; border-radius: 4px; cursor: pointer; }
@@ -14,6 +16,10 @@
 </head>
 <body>
     <h1>Monitoreo del Sistema</h1>
+    <div class="header-info">
+        <p><strong>Estudiante:</strong> Marcos Tulio Amador Rodriguez</p>
+        <p><strong>Número de Cuenta:</strong> 202010110449</p>
+    </div>
     {% if data.error %}
         <p>Error: {{ data.error }}</p>
     {% else %}

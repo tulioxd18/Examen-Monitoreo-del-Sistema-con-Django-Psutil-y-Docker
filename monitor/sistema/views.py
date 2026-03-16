@@ -4,24 +4,20 @@ import platform
 
 def get_system_info():
     try:
-        # CPU
         cpu_percent = psutil.cpu_percent(interval=1)
         cpu_count = psutil.cpu_count(logical=True)
 
-        # Memoria RAM
         memory = psutil.virtual_memory()
         memory_total_gb = round(memory.total / (1024**3), 2)
         memory_used_gb = round(memory.used / (1024**3), 2)
         memory_percent = memory.percent
 
-        # Disco
         disk = psutil.disk_usage('/')
         disk_total_gb = round(disk.total / (1024**3), 2)
         disk_used_gb = round(disk.used / (1024**3), 2)
         disk_free_gb = round(disk.free / (1024**3), 2)
         disk_percent = disk.percent
 
-        # Sistema operativo
         os_info = platform.system() + " " + platform.release()
 
         return {
