@@ -1,6 +1,6 @@
 # Monitoreo del Sistema con Django y Psutil
 
-**Autor:** Marcos Tulio Amador Rodriguez  
+**Alumno:** Marcos Tulio Amador Rodriguez  
 **Número de Cuenta:** 202010110449
 
 ## Descripción del Proyecto
