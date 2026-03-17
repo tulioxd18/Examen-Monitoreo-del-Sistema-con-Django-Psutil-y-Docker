@@ -1,5 +1,8 @@
 # Monitoreo del Sistema con Django y Psutil
 
+**Autor:** Marcos Tulio Amador Rodriguez  
+**Número de Cuenta:** 202010110449
+
 ## Descripción del Proyecto
 
 Esta aplicación web con Django permite visualizar en tiempo real el estado del sistema, incluyendo el uso del CPU, la memoria RAM, el almacenamiento en disco y otros recursos relevantes, utilizando la librería externa psutil.
